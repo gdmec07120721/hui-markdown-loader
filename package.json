@@ -1,0 +1,26 @@
+{
+  "name": "hui-markdown-loader",
+  "version": "1.0.1",
+  "description": "Thinkive-hui UI 组件库 Markdown 文档 Loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdmec07120721/hui-markdown-loader.git"
+  },
+  "keywords": [
+    "hui",
+    "markdown-loader",
+    "vuepress",
+    "hui-markdown-loader",
+    "thinkive-hui"
+  ],
+  "author": "xaobi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gdmec07120721/hui-markdown-loader/issues"
+  },
+  "homepage": "https://github.com/gdmec07120721/hui-markdown-loader#readme"
+}
