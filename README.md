@@ -26,7 +26,10 @@ configureWebpack: (config, isServer) => {
     if (copy_item.test.toString().indexOf('.md') > -1) {
         //使用markdown-load-vue解析器
         item.use.push({
-            loader: 'hui-markdown-loader'
+            loader: 'hui-markdown-loader',
+            options:{
+                baseUrl: 'http://localhost:8080'
+            }
         });
     }           
     return item;
