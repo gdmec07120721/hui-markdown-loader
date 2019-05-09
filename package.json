@@ -1,6 +1,6 @@
 {
   "name": "hui-markdown-loader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Thinkive-hui UI 组件库 Markdown 文档 Loader",
   "main": "index.js",
   "scripts": {

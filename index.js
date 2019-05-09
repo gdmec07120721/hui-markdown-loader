@@ -64,7 +64,7 @@ module.exports = function(content) {
     });
 
     if (demo_blocks.length > 0) {
-        content = `${content}\n<Common-GetMessage />\n<iframe name="VmMobile" id="VmMobile" src="${options.baseUrl}/#/${fileName}Demo" width="360" height="600" frameborder="0" scrolling="no" class="v-press-vm-mobile"></iframe>`;
+        content = `${content}\n<Common-GetMessage />\n<iframe name="VmMobile" id="VmMobile" src="${options.baseUrl}/#/${fileName}Demo" width="360" height="600" frameborder="0" scrolling="yes" class="v-press-vm-mobile"></iframe>`;
         
         let cache_content = `<template>
     <vm-mobile title="${demo_title}" demosOption="${demo_blocks.join('|')}" separator="|"></vm-mobile>
